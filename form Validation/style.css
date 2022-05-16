@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+h1{
+    margin-top: 10vw;
+    margin-left: 35vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5rem;
+}
+.container{
+    font-family: 'Comfortaa', cursive;
+    width: 350px;
+    padding: 14px;
+    margin-left: 35vw;
+    justify-content: center;
+    box-shadow: 10px 10px 5px rgb(224, 150, 224);
+}
+
+input{
+    font-family: 'Comfortaa', cursive;
+}
+
+cta{
+    font-family: 'Comfortaa', cursive;
+}
+
+.cta{
+    display: inline-block;
+    color: rgb(16, 2, 80);
+    text-decoration: none;
+    padding: 5px 5px;
+    border: 2px solid #718bda;
+    border-radius: 7px;
+}
+
+.cta:hover{
+    animation: pulsate 1s 
+    ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 10px #5ddcff,
+        0 0 10px #4e00c2;
+    }
+}
+
